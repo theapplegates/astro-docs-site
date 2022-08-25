@@ -1,13 +1,24 @@
 {
-  "index_name": "docsearch",
-  "start_urls": ["https://astrowind.paulapplegate.com"],
+  "index_name": "docs",
+  "start_urls": [
+	"https://astrowind.paulapplegate.com"
+{
+	"https://astrowind.paulapplegate.com/tags",
+			"selectors_key": "tags",
+			"page_rank": 2
+		}
+
+  ],
+  "sitemap_urls": [
+	"https://astrowind.paulapplegate.com/sitemap.xml"
+  ],
   "selectors": {
-  "selectors": {
-    "lvl0": "FIXME h1",
-    "lvl1": "FIXME h2",
-    "lvl2": "FIXME h3",
-    "lvl3": "FIXME h4",
-    "lvl4": "FIXME h5",
-    "lvl5": "FIXME h6",
-    "text": "FIXME p, FIXME li"  }
+	"lvl0": ".page-heading",
+	"lvl1": "h1",
+	"lvl2": "h2",
+	"lvl3": "h3",
+	"lvl4": "h4",
+	"lvl5": "h5",
+	"text": "p"
+  }
 }
