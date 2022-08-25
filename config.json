@@ -1,24 +1,22 @@
 {
   "index_name": "docsearch",
   "start_urls": [
-	"https://cute-maamoul-466486.netlify.app"
-{
-	"https://cute-maamoul-466486.netlify.app/tags",
-			"selectors_key": "tags",
-			"page_rank": 2
-		}
-
-  ],
-  "sitemap_urls": [
-	"https://cute-maamoul-466486.netlify.app/sitemap.xml"
+    {
+      "url": "https://cute-maamoul-466486.netlify.app/en/introduction/tags/",
+      "selectors_key": "tags",
+      "page_rank": 2
+    },
+    {
+      "url": "https://cute-maamoul-466486.netlify.app/",
+      "page_rank": 1
+    },
   ],
   "selectors": {
-	"lvl0": ".page-heading",
-	"lvl1": "h1",
-	"lvl2": "h2",
-	"lvl3": "h3",
-	"lvl4": "h4",
-	"lvl5": "h5",
-	"main p, main li"
-  }
+    "default": {
+      "lvl0": ".content-page h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p"
 }
