@@ -2,12 +2,12 @@
   "index_name": "docsearch",
   "start_urls": ["https://astrowind.paulapplegate.com"],
   "selectors": {
-    "h1": "#content header h1",
-    "h1": "#content article h1",
-    "h3": "#content section h3",
-    "h4": "#content section h4",
-    "h5": "#content section h5",
-    "h6": "#content section h6",
-    "text": "#content header p,#content section p,#content section ol"
-  }
+  "selectors": {
+    "lvl0": "FIXME h1",
+    "lvl1": "FIXME h2",
+    "lvl2": "FIXME h3",
+    "lvl3": "FIXME h4",
+    "lvl4": "FIXME h5",
+    "lvl5": "FIXME h6",
+    "text": "FIXME p, FIXME li"  }
 }
