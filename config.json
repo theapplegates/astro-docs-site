@@ -1,16 +1,16 @@
 {
   "index_name": "docs",
   "start_urls": [
-	"https://astrowind.paulapplegate.com"
+	"https://cute-maamoul-466486.netlify.app"
 {
-	"https://astrowind.paulapplegate.com/tags",
+	"https://cute-maamoul-466486.netlify.app/tags",
 			"selectors_key": "tags",
 			"page_rank": 2
 		}
 
   ],
   "sitemap_urls": [
-	"https://astrowind.paulapplegate.com/sitemap.xml"
+	"https://cute-maamoul-466486.netlify.app/sitemap.xml"
   ],
   "selectors": {
 	"lvl0": ".page-heading",
