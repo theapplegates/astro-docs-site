@@ -1,7 +1,7 @@
 {
-  "index_name": "cactus",
+  "index_name": "docsearch",
   "start_urls": [
-    "https://cactus.paulapplegate.com"
+    "https://cute-maamoul-466486.netlify.app"
   ],
   "selectors": {
     "lvl0": ".page-heading",
